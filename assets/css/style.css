@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Changed CSS selector like '.header' -> 'header' and 'div' -> 'nav' : Start */
+/* Changed CSS selector like '.header' -> 'header' and 'div' -> 'nav' */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,7 +41,6 @@ header > nav > ul > li {
     display: inline-block;
     margin-left: 25px;
 }
-/* Changed CSS selector like '.header' -> 'header' and 'div' -> 'nav': End */
 
 a {
     color: #ffffff;
@@ -190,13 +189,14 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* Changed CSS selector like '.footer' -> 'footer' */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer > h2 {
     font-size: 20px;
 }
