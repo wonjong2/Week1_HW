@@ -8,6 +8,7 @@ To make this web site rank higher in search engines and let the people with disa
 - Adds 'main' tag which includes 'section' and 'aside' tags
 - Adds 'alt' atttibute into img elements
 - Changes title of this web site
+- Changes the name of classes to consolidate the selectors
 - Adds 'id' attribute into 'section' element to jump to 'Search Engine Optimization' content when user clicks 'Search Engine Optimization' item in top menu
 
 ## Web Site's URL
